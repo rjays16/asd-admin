@@ -1,0 +1,461 @@
+/***** Start of Montserrat *****/
+@font-face {
+    font-family: 'Montserrat-Light';
+    src:url('./CustomFonts/Montserrat/Montserrat-Light.ttf');
+    src:url('./CustomFonts/Montserrat/Montserrat-Light.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Montserrat/Montserrat-Light.ttf') format('woff2'),
+        url('./CustomFonts/Montserrat/Montserrat-Light.ttf') format('woff'),
+        url('./CustomFonts/Montserrat/Montserrat-Light.ttf')  format('truetype'),
+        url('./CustomFonts/Montserrat/Montserrat-Light.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-LightItalic';
+    src:url('./CustomFonts/Montserrat/Montserrat-LightItalic.ttf');
+    src:url('./CustomFonts/Montserrat/Montserrat-LightItalic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Montserrat/Montserrat-LightItalic.ttf') format('woff2'),
+        url('./CustomFonts/Montserrat/Montserrat-LightItalic.ttf') format('woff'),
+        url('./CustomFonts/Montserrat/Montserrat-LightItalic.ttf')  format('truetype'),
+        url('./CustomFonts/Montserrat/Montserrat-LightItalic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src:url('./CustomFonts/Montserrat/Montserrat-Regular.ttf');
+    src:url('./CustomFonts/Montserrat/Montserrat-Regular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Montserrat/Montserrat-Regular.ttf') format('woff2'),
+        url('./CustomFonts/Montserrat/Montserrat-Regular.ttf') format('woff'),
+        url('./CustomFonts/Montserrat/Montserrat-Regular.ttf')  format('truetype'),
+        url('./CustomFonts/Montserrat/Montserrat-Regular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Italic';
+    src:url('./CustomFonts/Montserrat/Montserrat-Italic.ttf');
+    src:url('./CustomFonts/Montserrat/Montserrat-Italic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Montserrat/Montserrat-Italic.ttf') format('woff2'),
+        url('./CustomFonts/Montserrat/Montserrat-Italic.ttf') format('woff'),
+        url('./CustomFonts/Montserrat/Montserrat-Italic.ttf')  format('truetype'),
+        url('./CustomFonts/Montserrat/Montserrat-Italic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src:url('./CustomFonts/Montserrat/Montserrat-SemiBold.ttf');
+    src:url('./CustomFonts/Montserrat/Montserrat-SemiBold.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Montserrat/Montserrat-SemiBold.ttf') format('woff2'),
+        url('./CustomFonts/Montserrat/Montserrat-SemiBold.ttf') format('woff'),
+        url('./CustomFonts/Montserrat/Montserrat-SemiBold.ttf')  format('truetype'),
+        url('./CustomFonts/Montserrat/Montserrat-SemiBold.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src:url('./CustomFonts/Montserrat/Montserrat-Bold.ttf');
+    src:url('./CustomFonts/Montserrat/Montserrat-Bold.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Montserrat/Montserrat-Bold.ttf') format('woff2'),
+        url('./CustomFonts/Montserrat/Montserrat-Bold.ttf') format('woff'),
+        url('./CustomFonts/Montserrat/Montserrat-Bold.ttf')  format('truetype'),
+        url('./CustomFonts/Montserrat/Montserrat-Bold.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src:url('./CustomFonts/Montserrat/Montserrat-Medium.ttf');
+    src:url('./CustomFonts/Montserrat/Montserrat-Medium.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Montserrat/Montserrat-Medium.ttf') format('woff2'),
+        url('./CustomFonts/Montserrat/Montserrat-Medium.ttf') format('woff'),
+        url('./CustomFonts/Montserrat/Montserrat-Medium.ttf')  format('truetype'),
+        url('./CustomFonts/Montserrat/Montserrat-Medium.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+.montserrat-light{
+    font-family: 'Montserrat-Light' !important;
+}
+.montserrat-lightitalic{
+    font-family: 'Montserrat-LightItalic' !important;
+}
+.montserrat-regular{
+    font-family: 'Montserrat-Regular' !important;
+}
+.montserrat-italic{
+    font-family: 'Montserrat-Italic' !important;
+}
+.montserrat-semibold{
+    font-family: 'Montserrat-SemiBold' !important;
+}
+.montserrat-bold{
+    font-family: 'Montserrat-Bold' !important;
+}
+.montserrat-medium{
+    font-family: 'Montserrat-Medium' !important;
+}
+/***** End of Montserrat *****/
+
+/***** Start of Raleway *****/
+@font-face {
+    font-family: 'Raleway-Light';
+    src:url('./CustomFonts/Raleway/Raleway-Light.ttf');
+    src:url('./CustomFonts/Raleway/Raleway-Light.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Raleway/Raleway-Light.ttf') format('woff2'),
+        url('./CustomFonts/Raleway/Raleway-Light.ttf') format('woff'),
+        url('./CustomFonts/Raleway/Raleway-Light.ttf')  format('truetype'),
+        url('./CustomFonts/Raleway/Raleway-Light.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-LightItalic';
+    src:url('./CustomFonts/Raleway/Raleway-LightItalic.ttf');
+    src:url('./CustomFonts/Raleway/Raleway-LightItalic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Raleway/Raleway-LightItalic.ttf') format('woff2'),
+        url('./CustomFonts/Raleway/Raleway-LightItalic.ttf') format('woff'),
+        url('./CustomFonts/Raleway/Raleway-LightItalic.ttf')  format('truetype'),
+        url('./CustomFonts/Raleway/Raleway-LightItalic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src:url('./CustomFonts/Raleway/Raleway-Regular.ttf');
+    src:url('./CustomFonts/Raleway/Raleway-Regular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Raleway/Raleway-Regular.ttf') format('woff2'),
+        url('./CustomFonts/Raleway/Raleway-Regular.ttf') format('woff'),
+        url('./CustomFonts/Raleway/Raleway-Regular.ttf')  format('truetype'),
+        url('./CustomFonts/Raleway/Raleway-Regular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Italic';
+    src:url('./CustomFonts/Raleway/Raleway-Italic.ttf');
+    src:url('./CustomFonts/Raleway/Raleway-Italic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Raleway/Raleway-Italic.ttf') format('woff2'),
+        url('./CustomFonts/Raleway/Raleway-Italic.ttf') format('woff'),
+        url('./CustomFonts/Raleway/Raleway-Italic.ttf')  format('truetype'),
+        url('./CustomFonts/Raleway/Raleway-Italic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src:url('./CustomFonts/Raleway/Raleway-SemiBold.ttf');
+    src:url('./CustomFonts/Raleway/Raleway-SemiBold.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Raleway/Raleway-SemiBold.ttf') format('woff2'),
+        url('./CustomFonts/Raleway/Raleway-SemiBold.ttf') format('woff'),
+        url('./CustomFonts/Raleway/Raleway-SemiBold.ttf')  format('truetype'),
+        url('./CustomFonts/Raleway/Raleway-SemiBold.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Bold';
+    src:url('./CustomFonts/Raleway/Raleway-Bold.ttf');
+    src:url('./CustomFonts/Raleway/Raleway-Bold.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Raleway/Raleway-Bold.ttf') format('woff2'),
+        url('./CustomFonts/Raleway/Raleway-Bold.ttf') format('woff'),
+        url('./CustomFonts/Raleway/Raleway-Bold.ttf')  format('truetype'),
+        url('./CustomFonts/Raleway/Raleway-Bold.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src:url('./CustomFonts/Raleway/Raleway-Medium.ttf');
+    src:url('./CustomFonts/Raleway/Raleway-Medium.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Raleway/Raleway-Medium.ttf') format('woff2'),
+        url('./CustomFonts/Raleway/Raleway-Medium.ttf') format('woff'),
+        url('./CustomFonts/Raleway/Raleway-Medium.ttf')  format('truetype'),
+        url('./CustomFonts/Raleway/Raleway-Medium.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+.raleway-light{
+    font-family: 'Raleway-Light' !important;
+}
+.raleway-light{
+    font-family: 'Raleway-LightItalic' !important;
+}
+.raleway-regular{
+    font-family: 'Raleway-Regular' !important;
+}
+.raleway-italic{
+    font-family: 'Raleway-Italic' !important;
+}
+.raleway-semibold{
+    font-family: 'Raleway-SemiBold' !important;
+}
+.raleway-bold{
+    font-family: 'Raleway-Bold' !important;
+}
+.raleway-medium{
+    font-family: 'Raleway-Medium' !important;
+}
+/***** End of Raleway *****/
+
+/***** Start of Avenir *****/
+@font-face {
+    font-family: 'Avenir-Bold';
+    src:url('./CustomFonts/Avenir/Avenir-Bold.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-Bold.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-Bold.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-Bold.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-Bold.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-Bold.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-BoldItalic';
+    src:url('./CustomFonts/Avenir/Avenir-BoldItalic.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-BoldItalic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-BoldItalic.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-BoldItalic.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-BoldItalic.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-BoldItalic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-Italic';
+    src:url('./CustomFonts/Avenir/Avenir-Italic.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-Italic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-Italic.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-Italic.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-Italic.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-Italic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-LightItalic';
+    src:url('./CustomFonts/Avenir/Avenir-LightItalic.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-LightItalic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-LightItalic.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-LightItalic.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-LightItalic.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-LightItalic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-LightRegular';
+    src:url('./CustomFonts/Avenir/Avenir-LightRegular.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-LightRegular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-LightRegular.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-LightRegular.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-LightRegular.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-LightRegular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-Regular';
+    src:url('./CustomFonts/Avenir/Avenir-Regular.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-Regular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-Regular.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-Regular.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-Regular.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-Regular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-SemiItalic';
+    src:url('./CustomFonts/Avenir/Avenir-SemiItalic.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-SemiItalic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-SemiItalic.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-SemiItalic.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-SemiItalic.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-SemiItalic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-SemiRegular';
+    src:url('./CustomFonts/Avenir/Avenir-SemiRegular.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-SemiRegular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-SemiRegular.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-SemiRegular.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-SemiRegular.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-SemiRegular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir-Medium';
+    src:url('./CustomFonts/Avenir/Avenir-Medium.ttf');
+    src:url('./CustomFonts/Avenir/Avenir-Medium.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Avenir/Avenir-Medium.ttf') format('woff2'),
+        url('./CustomFonts/Avenir/Avenir-Medium.ttf') format('woff'),
+        url('./CustomFonts/Avenir/Avenir-Medium.ttf')  format('truetype'),
+        url('./CustomFonts/Avenir/Avenir-Medium.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+.avenir-bold {
+    font-family: 'Avenir-Bold' !important;
+}
+.avenir-bold-italic {
+    font-family: 'Avenir-BoldItalic' !important;
+}
+.avenir-italic {
+    font-family: 'Avenir-BoldItalic' !important;
+}
+.avenir-light-italic {
+    font-family: 'Avenir-LightItalic' !important;
+}
+.avenir-light-regular {
+    font-family: 'Avenir-LightRegular' !important;
+}
+.avenir-regular {
+    font-family: 'Avenir-Regular' !important;
+}
+.avenir-semi-italic {
+    font-family: 'Avenir-SemiItalic' !important;
+}
+.avenir-semi-regular {
+    font-family: 'Avenir-SemiRegular' !important;
+}
+.avenir-medium {
+    font-family: 'Avenir-Medium' !important;
+}
+/***** End of Avenir *****/
+
+/***** Start of DM Sans *****/
+@font-face {
+    font-family: 'DMSans-Regular';
+    src:url('./CustomFonts/DMSans/DMSans-Regular.ttf');
+    src:url('./CustomFonts/DMSans/DMSans-Regular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/DMSans/DMSans-Regular.ttf') format('woff2'),
+        url('./CustomFonts/DMSans/DMSans-Regular.ttf') format('woff'),
+        url('./CustomFonts/DMSans/DMSans-Regular.ttf')  format('truetype'),
+        url('./CustomFonts/DMSans/DMSans-Regular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'DMSans-Italic';
+    src:url('./CustomFonts/DMSans/DMSans-Italic.ttf');
+    src:url('./CustomFonts/DMSans/DMSans-Italic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf') format('woff2'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf') format('woff'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf')  format('truetype'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'DMSans-BoldItalic';
+    src:url('./CustomFonts/DMSans/DMSans-Italic.ttf');
+    src:url('./CustomFonts/DMSans/DMSans-Italic.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf') format('woff2'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf') format('woff'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf')  format('truetype'),
+        url('./CustomFonts/DMSans/DMSans-Italic.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'DMSans-Bold';
+    src:url('./CustomFonts/DMSans/DMSans-Bold.ttf');
+    src:url('./CustomFonts/DMSans/DMSans-Bold.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/DMSans/DMSans-Bold.ttf') format('woff2'),
+        url('./CustomFonts/DMSans/DMSans-Bold.ttf') format('woff'),
+        url('./CustomFonts/DMSans/DMSans-Bold.ttf')  format('truetype'),
+        url('./CustomFonts/DMSans/DMSans-Bold.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+.dmsans-regular {
+    font-family: 'DMSans-Regular' !important;
+}
+.dmsans-italic {
+    font-family: 'DMSans-Italic' !important;
+}
+.dmsans-bold-italic {
+    font-family: 'DMSans-BoldItalic' !important;
+}
+.dmsans-bold {
+    font-family: 'DMSans-Bold' !important;
+}
+/***** End of DM Sans *****/
+
+/***** Start of Adamina *****/
+@font-face {
+    font-family: 'Adamina-Regular';
+    src:url('./CustomFonts/Adamina/Adamina-Regular.ttf');
+    src:url('./CustomFonts/Adamina/Adamina-Regular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Adamina/Adamina-Regular.ttf') format('woff2'),
+        url('./CustomFonts/Adamina/Adamina-Regular.ttf') format('woff'),
+        url('./CustomFonts/Adamina/Adamina-Regular.ttf')  format('truetype'),
+        url('./CustomFonts/Adamina/Adamina-Regular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
+.adamina-regular{
+    font-family: 'Adamina-Regular' !important;
+}
+/***** End of Adamina *****/
+
+/***** Start of Bookman *****/
+@font-face {
+    font-family: 'Bookman-OldStyle';
+    src:url('./CustomFonts/Bookman/Bookman-OldStyle.ttf');
+    src:url('./CustomFonts/Bookman/Bookman-OldStyle.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Bookman/Bookman-OldStyle.ttf') format('woff2'),
+        url('./CustomFonts/Bookman/Bookman-OldStyle.ttf') format('woff'),
+        url('./CustomFonts/Bookman/Bookman-OldStyle.ttf')  format('truetype'),
+        url('./CustomFonts/Bookman/Bookman-OldStyle.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
+.bookman-old-style{
+    font-family: 'Bookman-OldStyle' !important;
+}
+/***** End of Bookman *****/
+
+/***** Start of Hastafi *****/
+@font-face {
+    font-family: 'Hastafi';
+    src:url('./CustomFonts/Hastafi/Hastafi-Italic.otf');
+    src:url('./CustomFonts/Hastafi/Hastafi-Italic.otf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/Hastafi/Hastafi-Italic.otf') format('woff2'),
+        url('./CustomFonts/Hastafi/Hastafi-Italic.otf') format('woff'),
+        url('./CustomFonts/Hastafi/Hastafi-Italic.otf')  format('truetype'),
+        url('./CustomFonts/Hastafi/Hastafi-Italic.otf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
+.hastafi{
+    font-family: 'Hastafi' !important;
+}
+/***** End of Hastafi *****/
+
+/***** Start of OpenSans *****/
+@font-face {
+    font-family: 'OpenSans';
+    src:url('./CustomFonts/OpenSans/OpenSans-Regular.ttf');
+    src:url('./CustomFonts/OpenSans/OpenSans-Regular.ttf?#iefix') format('embedded-opentype'),
+        url('./CustomFonts/OpenSans/OpenSans-Regular.ttf') format('woff2'),
+        url('./CustomFonts/OpenSans/OpenSans-Regular.ttf') format('woff'),
+        url('./CustomFonts/OpenSans/OpenSans-Regular.ttf')  format('truetype'),
+        url('./CustomFonts/OpenSans/OpenSans-Regular.ttf#svgFontName') format('svg');
+        font-weight: normal;
+        font-style: normal;
+}
+
+.opensans{
+    font-family: 'OpenSans' !important;
+}
+/***** End of OpenSans *****/
