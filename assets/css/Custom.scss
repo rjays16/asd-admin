@@ -1,0 +1,510 @@
+/***** Table of Contents *****/
+/* I. html
+/* II. Top Navbar
+/* III. Sidebar
+/* IV. Footer
+/* V. Buttons
+/* VI. Cards
+/* VII. Colors
+/* VIII. Dividers
+/* IX. El Form Inputs
+/* X. Containers
+/* XI. Corners
+/* XII. Cursors
+/* XIII. Responsive
+/* XIV. Others
+
+/***** End of Table of Contents *****/
+
+/***** I. Start of html *****/
+@import "admin-lte/dist/css/adminlte.css";
+@import 'admin-lte/plugins/fontawesome-free/css/all.css';
+
+html,
+body {
+    font-family: 'DMSans-Regular', sans-serif;
+    font-weight: 400;
+}
+body,
+.content-wrapper {
+    background: #F1F4FA!important;
+}
+/***** End of html *****/
+
+/***** II. Top Navbar *****/
+.nav-light {
+    background: #F1F4FA;
+    border-bottom: none;
+}
+.dash-view {
+    .el-button-group, button {
+        background: #eb7e10!important;
+        border:none!important;
+        border-radius: 0.25rem;
+    }
+}
+/***** End of Top Navbar *****/
+
+/***** III. Sidebar *****/
+.el-menu-item,
+.el-submenu__title {
+    height: 42px!important;
+    line-height: 42px!important;
+}
+.el-submenu {
+    &:hover {
+        .el-submenu__title {
+            border-radius: 0px;
+        }
+    }
+    .el-submenu__title {
+        border-radius: 0px!important;
+    }
+}
+/***** End of Sidebar *****/
+
+/***** IV. Start of Footer *****/
+.main-footer {
+    background: none;
+    border: none;
+}
+/***** End of Footer *****/
+
+/***** V. Buttons *****/
+.btn-white {
+    &.regular {
+        background: #fff;
+        color: #212529;
+        border: 1px solid #a8a8a8;
+        font-size: 14px;
+        &:hover {
+            background: white;
+            color: #212529;
+        }
+    }
+    &.blue {
+        background: white;
+        color: #0088CC;
+        font-size: 14px;
+        &:hover {
+            background: white;
+            color: #009eec;
+        }
+    }
+}
+.btn-gray {
+    background: #111010;
+    color: white;
+    font-size: 14px;
+    &:hover {
+        background: #3f3f3f;
+        color: white;
+    }
+}
+.btn-transparent {
+    background: #00000000;
+    color: #0088CC;
+    border: 1px solid #0088CC;
+    font-size: 14px;
+    &:hover {
+        background: white;
+        color: #0088CC;
+    }
+}
+.btn-blue {
+    background: #0776BC;
+    color: white;
+    font-size: 14px;
+    &:hover {
+        background: #009eec;
+        color: white;
+    }
+}
+.btn-red {
+    background: #f54444;
+    color: white;
+    font-size: 14px;
+    &:hover {
+        background: #ff0000;
+        color: white;
+    }
+}
+.btn-orange {
+    background: #ff5e00;
+    color: white;
+    font-size: 14px;
+    &:hover {
+        background: #fb9027;
+        color: white;
+    }
+}
+.btn-green {
+	background: #48ba23;
+	color: white;
+    font-size: 14px;
+	&:hover {
+		background: #98ca24;
+		color: white;
+	}
+}
+.btn-green-inverse {
+	background: none;
+	color: #48ba23;
+    font-size: 14px;
+    border: 1px solid #48ba23;
+	&:hover {
+		background: #48ba23;
+	    color: white;
+	}
+}
+.btn-filters {
+    background: #545454;
+    color: white;
+    font-size: 14px;
+    &:hover {
+        background: #9b9b9b;
+        color: white;
+    }
+}
+.btn-yellow {
+    background: #FFE600;
+    color: black;
+    font-size: 14px;
+    &:hover {
+        background: #cfbf31;
+        color: black;
+    }
+}
+/***** End of Buttons *****/
+
+/***** VI. Start of Cards *****/
+.card-default {
+	background: #fff;
+    color: #666;
+    box-shadow: 0 5px 15px #00000014;
+}
+.card-shadow {
+    box-shadow: 0 5px 15px #00000014;
+}
+/***** End of Cards *****/
+
+/***** VII. Start of Colors *****/
+.color-C4C4C4 {
+	color: #C4C4C4;
+}
+.color-CCCCCC {
+    color: #CCCCCC;
+}
+.color-545454 {
+    color: #545454;
+}
+.color-959595 {
+    color: #959595;
+}
+.color-8DBA23 {
+    color: #8DBA23;
+}
+.color-EB7E10 {
+    color: #EB7E10;
+}
+.color-0088CC {
+    color: #0088CC;
+}
+.color-FF5353 {
+    color: #FF5353;
+}
+.color-FF2C2C {
+    color: #FF2C2C;
+}
+a {
+    &.link-label {
+        color: #0776BC;
+        &:hover {
+            color: #0056b3;
+        }
+    }
+}
+
+.bg-8DBA23 {
+    background: #8DBA23;
+}
+.bg-FF4A4A {			
+    background: #FF4A4A;
+}
+.bg-00367E {
+    background: #00367E;
+}
+/***** End of Colors *****/
+
+/***** VIII. Start of Dividers *****/
+.divider-1 {
+	border: 1px solid black;
+}
+.divider-2 {
+    border: 1px solid #0088CC;
+}
+/***** End of Dividers *****/
+
+/***** IX. Start of El Form Inputs *****/
+.el-input__inner::placeholder,
+.el-textarea__inner::placeholder {
+    color: #7e7e7e;
+}
+.el-input.input-prepend-blue  {
+    .el-input-group__prepend {
+        background-color:#0088cc;
+        border:1px solid #0088cc;
+        color:#fff;
+    }
+}
+.el-input {
+    &.centered {
+        .el-input__inner {
+            text-align: center;
+            &::-webkit-input-placeholder {
+                text-align: center;
+            }
+            &::-moz-placeholder {
+                text-align: center;  
+            }
+            &:-ms-input-placeholder {
+                text-align: center; 
+            }
+        }
+    }
+}
+
+.el-auto {
+    &::v-deep .el-upload {
+        width: auto;
+    }
+}
+
+.el-table {
+    .cell {
+        white-space: normal;
+        word-break: normal;
+    }
+}
+
+.el-checkbox-group {
+    &.checkbox-block {
+        .el-checkbox {
+            display: block;
+        }
+    }
+}
+
+.el-input-number {
+    .el-input {
+        input {
+            text-align: left;
+        }
+    }
+}
+
+.el-popper {
+    &.is-multiple {
+        .category {
+            float: left;
+        }
+        .name {
+            float: right;
+            color: #8492a6;
+            font-size: 13px;
+            padding-right: 20px;
+        }
+    }
+}
+
+.el-phone {
+	border: 1px solid #DCDFE6!important;
+	height: 40px;
+	input {
+		font-size: 14px;
+	}
+}
+
+.el-uppercase {
+    input {
+		text-transform: uppercase;
+	}
+}
+/***** End of El Form Inputs *****/
+
+/***** X. Start of Containers *****/
+.image-upload {
+    &.regular {
+        .corner-circle {
+            overflow: hidden;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            border: 2px solid black;
+            &.default {            
+                padding: 18px;
+            }
+        }
+        .avatar-uploader {
+            width: fit-content;
+        }
+        .con-image {
+            max-height: 225px;
+        }
+        img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+        i.fa-image {
+            color: #a8a8a8;
+            &.small {
+                font-size: 10rem;
+            }
+            &:not(.small) {
+                font-size: 14rem;
+            }
+        }
+        .choose-blue-bar {
+            margin-top: 1rem;
+            background: #0088cc;
+            border-radius: 4px;
+            width: fit-content;
+            color: #fff;
+        }
+    }
+}
+
+.el-input-group-append {
+    &.custom {
+        position: relative;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 1%;
+        margin-bottom: 0;
+        input {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+}
+.input-group-append {
+    &.custom {
+        z-index: 5;
+    }
+}
+.el-input-group-prepend {
+    &.custom {
+        position: relative;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 1%;
+        margin-bottom: 0;
+        input {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}
+.input-group-prepend {
+    &.custom {
+        .input-group-text {
+            background-color: #9B9B9B;
+            color: #fff;
+            font-weight: bold;
+            z-index: 5;
+        }
+    }
+}
+.vueditor {
+    min-height: 400px!important;
+}
+.con-search-button {
+    &.custom {
+        position: relative;
+        min-height: 72px;
+        .btn-search-report {
+            position: absolute;
+            bottom: 0px;
+        }
+    }
+}
+.list-column-group {
+    column-count: 3;
+}
+/***** End of Containers *****/
+
+/***** XI. Start of Corners *****/
+.corner-rounded {
+	border-radius: 5px!important;
+}
+.corner-circle {
+	border-radius: 50%!important;
+}
+.corner-pill {
+	border-radius: 500px!important;
+}
+/***** End of Corners *****/
+
+/***** XII. Start of Cursors *****/
+.clickable {
+	cursor: pointer;
+}
+.cursor-grab {
+    cursor: grab;
+}
+.no-pointer {
+	pointer-events: none;
+}
+/***** End of Cursors *****/
+
+/***** XIII. Start of Responsive *****/
+/***** End of Cursors *****/
+
+/***** XIV. Start of Others *****/
+.note {
+    font-size: 12px;
+    &.bg-DEF4FF {
+        background: #DEF4FF;
+    }
+}
+.actions {
+    &.same-size {
+        button, a {
+            padding-right: 0px;
+            padding-left: 0px;
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
+.date-prefixed {
+    .el-input__inner {
+        padding-left: 45px;
+    }
+    .el-input__prefix {
+        left: 0;
+        padding: 0px 5px;
+        color: white;
+        background: #0088CC;
+        border-radius: 5px 0px 0px 5px;
+    }
+}
+.country-select,
+.region-select {
+	font-size: 14px;
+	height: 40px;
+	&::v-deep option {
+		color: black;
+	}
+	&:disabled {
+		background-color: #F5F7FA;
+		border-color: #E4E7ED;
+		&:hover {
+			cursor: not-allowed;
+		}
+	}
+}
+/***** End of Others *****/
